@@ -2,22 +2,24 @@
     <HeaderComponent/>
     <QuoteComponent/>
     <AllPacksComponent/>
-    <ThemesComponent/>
+    <AllThemesComponent/>
+    <FooterComponent/>
 </template>
   
 <script>
 import HeaderComponent from '../components/HeaderComponent.vue'
 import QuoteComponent from "../components/QuoteComponent.vue"
 import AllPacksComponent from "../components/AllPacksComponent.vue"
-import ThemesComponent from "../components/ThemesComponent.vue"
-
+import AllThemesComponent from "../components/AllThemesComponent.vue"
+import FooterComponent from "../components/FooterComponent.vue"
 export default {
     name: 'HomePage',
     components: {
       HeaderComponent,
       QuoteComponent,
       AllPacksComponent,
-      ThemesComponent,
+      AllThemesComponent,
+      FooterComponent,
     },
 }
 </script>

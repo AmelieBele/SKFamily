@@ -1,7 +1,7 @@
 <template>    
     <div class="header">
         <div class="logo">
-            <img src="../../images/logo_sk.jpg" alt="logo du site">        
+            <img src="../../images/logo_sk.jpg" alt="logo du site" @click.prevent="home">        
         </div>
         <div class="reseaux">
             <a class="fb_insta" href="https://www.facebook.com/profile.php?id=100086930124117"><i class="fa-brands fa-facebook"></i></a>
@@ -20,6 +20,9 @@ export default {
     methods: {
         contact (){
             this.$router.push(`contact/`)
+        }, 
+        home(){
+            this.$router.push('/')
         }
     }
 }
@@ -34,6 +37,7 @@ div.header{
         img{
             width: 200px;
             height: 200px;
+            cursor:pointer;
         } 
     }
     div.reseaux{
