@@ -8,7 +8,7 @@
         <p class="me_contacter">Me contacter</p>
         <div class="infos">
           <p>skfamilyevents@gmail.com</p>
-          <p>06.00.00.00.00 </p>
+          <p>06.33.27.75.22 </p>
           <p class="reseaux">
             <a class="fb_insta" href="https://www.facebook.com/profile.php?id=100086930124117"><i class="fa-brands fa-facebook"></i></a>
             <a class="fb_insta" href="https://www.instagram.com/skfamilyevents/"><i class="fa-brands fa-instagram"></i></a>      

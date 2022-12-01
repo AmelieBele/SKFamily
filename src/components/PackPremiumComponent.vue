@@ -11,9 +11,9 @@
             <li>2 présentoir à gâteau</li>
             <li>3 plinth (support rectangulaire pour présentoir à gâteau)</li>
             <li>2 arche de ballon (≈ 4m)</li>
-            <li>3 éléments thématique <br/> + décoration à thème</li>
-            
+            <li>3 éléments thématique <br/> + décoration à thème</li>           
         </ul>
+        <img src="../../images/pack_premium.png" alt="photo illustrant le pack prémium"/>
     </div>
 </template>
 
@@ -46,6 +46,12 @@ export default {
             font-size: 25px;
             font-weight: 500;
             color:#5b4e46;
+        }
+        img{
+            align-items: center;
+            width: 100%;
+            border-radius: 20px;   
+            margin-bottom: -4px;        
         }
 
     }

@@ -11,9 +11,9 @@
             <li>1 présentoir à gâteau</li>
             <li>2 plinth (support rectangulaire pour présentoir à gâteau)</li>
             <li>1 arche de ballon (≈ 3m)</li>
-            <li>2 éléments thématique</li>
-            
+            <li>2 éléments thématique</li>           
         </ul>
+        <img src="../../images/pack_medium.jpg" alt="photo illustrant le pack médium"/>
     </div>
 </template>
 
@@ -46,6 +46,11 @@ export default {
             font-size: 25px;
             font-weight: 500;
             color:#5b4e46;
+        }
+        img{
+            width: 100%;
+            border-radius: 20px;    
+            margin-bottom: 25px;       
         }
 
     }

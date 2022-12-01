@@ -11,9 +11,9 @@
             <li>1 structure</li>
             <li>1 présentoir à gâteau</li>
             <li>1 plinth (support rectangulaire pour présentoir à gâteau)</li>
-            <li>1 arche de ballon (≈ 2m ou 2 arches de 1m)</li>
-            
+            <li>1 arche de ballon (≈ 2m ou 2 arches de 1m)</li>           
         </ul>
+        <img src="../../images/pack_soft.jpg" alt="photo illustrant le pack soft"/>
     </div>
 </template>
 
@@ -47,7 +47,12 @@ export default {
             font-weight: 500;
             color:#5b4e46;
         }
-
+        img{
+            width: 100%;
+            border-radius: 20px; 
+            margin-bottom: -4px;    
+            margin-top: 30px;      
+        }
     }
     
 </style>
