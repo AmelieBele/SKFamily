@@ -1,8 +1,8 @@
 <template>
     <HeaderComponent/>
     <QuoteComponent/>
-    <AllPacksComponent/>
     <AllThemesComponent/>
+    <AllPacksComponent/>
     <FooterComponent/>
 </template>
   

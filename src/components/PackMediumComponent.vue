@@ -4,16 +4,16 @@
             Pack Médium
         </p>
         <p class="prix">
-            300€
+            À partir de 300€
         </p>
         <ul> 
             <li>2 structures</li>
             <li>1 présentoir à gâteau</li>
-            <li>2 plinth (support rectangulaire pour présentoir à gâteau)</li>
+            <li>2 plinths (support rectangulaire pour présentoir à gâteau)</li>
             <li>1 arche de ballon (≈ 3m)</li>
             <li>2 éléments thématique</li>           
         </ul>
-        <img src="../../images/pack_medium.jpg" alt="photo illustrant le pack médium"/>
+        <img src="../../images/pack_medium.png" alt="photo illustrant le pack médium"/>
     </div>
 </template>
 
@@ -50,7 +50,7 @@ export default {
         img{
             width: 100%;
             border-radius: 20px;    
-            margin-bottom: 25px;       
+            margin-bottom: -4px;
         }
 
     }

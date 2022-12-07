@@ -5,7 +5,7 @@
             Pack Soft
         </p>
         <p class="prix">
-            170€
+            À partir de 170€
         </p>
         <ul> 
             <li>1 structure</li>
@@ -51,7 +51,7 @@ export default {
             width: 100%;
             border-radius: 20px; 
             margin-bottom: -4px;    
-            margin-top: 30px;      
+            margin-top: 30px;     
         }
     }
     

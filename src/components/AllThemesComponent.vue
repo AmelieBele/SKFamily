@@ -10,9 +10,6 @@
             <button type="button" id="gr" @click.prevent="goGR">Gender Reveal</button>
             <button type="button" id="gr" @click.prevent="goMariage">Mariage</button>
             <button type="button" id="autre" @click.prevent="goAutre">Autre</button>   
-            
-
-
         </div>
     </div>
 </template>
@@ -90,7 +87,9 @@ export default {
             cursor: pointer;
             background-color:#c9bf93;
         }
-        
+        #autre{
+            margin-bottom:100px;
+        }
     }
 </style>
 

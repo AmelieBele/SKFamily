@@ -24,15 +24,19 @@
             <img class="paysage" src="../../images/IMG_8302.jpg" alt="image décoration mariage"/>
         </div>
     </div>
+    <FooterComponent/>
 </template>
   
 <script>
 
 import HeaderComponent from '../components/HeaderComponent.vue'
+import FooterComponent from "../components/FooterComponent.vue"
+
 export default {
     name: 'ThemesTousPage',
     components: {
         HeaderComponent,
+        FooterComponent,
     },
     
 }

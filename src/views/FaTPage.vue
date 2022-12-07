@@ -15,15 +15,18 @@
             <img class="paysage" src="../../images/halloween_3.jpg" alt="image décoration halloween"/>
         </div>
     </div>
+    <FooterComponent/>
 </template>
   
 <script>
 
 import HeaderComponent from '../components/HeaderComponent.vue'
+import FooterComponent from "../components/FooterComponent.vue"
 export default {
     name: 'FaTPage',
     components: {
         HeaderComponent,
+        FooterComponent,
     },
     
 }

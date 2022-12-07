@@ -9,15 +9,18 @@
             <p class="titre_theme">Aucune décoration n'à été réalisée dans cette thématique pour le moment, soyez le premier, <a href="/contact">contactez moi</a>!</p>
         </div>
     </div>
+    <FooterComponent/>
 </template>
   
 <script>
 
 import HeaderComponent from '../components/HeaderComponent.vue'
+import FooterComponent from "../components/FooterComponent.vue"
 export default {
     name: 'AutrePage',
     components: {
         HeaderComponent,
+        FooterComponent,
     },
     
 }

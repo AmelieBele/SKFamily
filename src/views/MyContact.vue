@@ -5,7 +5,7 @@
             <img src="../../images/logo_sk.jpg" alt="logo du site" @click.prevent="home">        
     </div>
     <div class="contact">
-        <p class="me_contacter">Me contacter</p>
+        <p class="me_contacter">Mes coordonnés</p>
         <div class="infos">
           <p>skfamilyevents@gmail.com</p>
           <p>06.33.27.75.22 </p>
@@ -16,14 +16,16 @@
         </div>
     </div>
   </div>
+  <FooterComponent/>
 </template>
 
 <script>
 
+import FooterComponent from "../components/FooterComponent.vue"
 export default {
   name: 'MyContact',
   components: {
-
+    FooterComponent
     },
     methods: {
         home (){
@@ -60,6 +62,7 @@ export default {
       font-size: 50px;
       font-weight: 500;
       color:#5b4e46;
+      margin-bottom:100px;
     }
     .infos{
       text-align: center;

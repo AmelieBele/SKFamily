@@ -5,6 +5,11 @@
             Bienvenue sur SK Family Events
         </p>
         <p class="texte">
+            Décorateur évennementiel situé sur Toury 28310 <br/>
+            Structure personnalisée, création d'arche de ballons organiques, prénom sur structure, éléments thématique comme disney, super héros, sirène ...<br/>
+            Tout est possible, création unique et sur mesure!
+        </p>
+        <p class="texte">
             Choisissez un thème ainsi que le pack que vous souhaitez et contactez moi !
         </p>
     </div> 

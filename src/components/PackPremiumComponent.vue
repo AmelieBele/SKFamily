@@ -4,12 +4,12 @@
             Pack Prémium
         </p>
         <p class="prix">
-            450€
+            À partir de 450€
         </p>
         <ul> 
             <li>3 structures</li>
             <li>2 présentoir à gâteau</li>
-            <li>3 plinth (support rectangulaire pour présentoir à gâteau)</li>
+            <li>3 plinths (support rectangulaire pour présentoir à gâteau)</li>
             <li>2 arche de ballon (≈ 4m)</li>
             <li>3 éléments thématique <br/> + décoration à thème</li>           
         </ul>
