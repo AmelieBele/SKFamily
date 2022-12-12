@@ -1,5 +1,4 @@
 <template>
-    <HeaderComponent/>
     <div>
         <div class="p">
             <p>Tous les thèmes déja réalisés</p>
@@ -23,20 +22,25 @@
             <img class="paysage" src="../../images/IMG_8301.jpg" alt="image décoration mariage"/>
             <img class="paysage" src="../../images/IMG_8302.jpg" alt="image décoration mariage"/>
         </div>
+        <div class="texte">
+            <p class="titre_theme">Autre</p>
+        </div>
+        <div class="image_legende">           
+            <div class="image_theme image_theme_legende">
+                <img class="img_legende_portrait" src="../../images/anniv-no.jpg" alt="image décoration mariage"/>
+            </div>
+            <p class="legende">Création d'une arche de ballons organique.<br/>(Tous les ballons et la toile de fond ont été fournis par la cliente)</p>
+        </div>
+
     </div>
-    <FooterComponent/>
 </template>
   
 <script>
 
-import HeaderComponent from '../components/HeaderComponent.vue'
-import FooterComponent from "../components/FooterComponent.vue"
 
 export default {
     name: 'ThemesTousPage',
     components: {
-        HeaderComponent,
-        FooterComponent,
     },
     
 }
@@ -78,6 +82,23 @@ export default {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+    }
+    .legende{
+        font-size: 13px;
+        text-align:start;
+    }
+    .image_legende{
+        display: flex;
+        flex-direction: column;
+        width:33%;
+
+    }
+    .img_legende_portrait{
+        width: 60%;
+        margin-top:30px;
+        border: 1px solid #c9bf93;
+        border-radius: 20px;
+
     }
 </style>
   

@@ -8,6 +8,8 @@ import BabyShowerPage from "../views/BabyShowerPage.vue";
 import FaTPage from "../views/FaTPage.vue";
 import GenderRevealPage from "../views/GenderRevealPage.vue";
 import MariagePage from "../views/MariagePage.vue";
+import LocPage from "../views/LocPage.vue";
+
 
 const routes = [
   {
@@ -54,6 +56,11 @@ const routes = [
     path:"/Mariage",
     name:"Mariage",
     component: MariagePage
+  },
+  {
+    path:"/Loc",
+    name:"Location",
+    component: LocPage
   },
 
 ];

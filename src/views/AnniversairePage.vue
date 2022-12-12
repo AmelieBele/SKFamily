@@ -1,5 +1,4 @@
 <template>
-    <HeaderComponent/>
     <div class="tous">
         <div class="p">
             <p>Anniversaire</p>
@@ -10,19 +9,25 @@
         <div class="image_theme">
             <img class="portrait" src="../../images/pack_soft_noir.jpg"/>
         </div>
+        <div class="texte">
+            <p class="titre_theme">Autre</p>
+        </div>
+        <div class="image_legende">           
+            <div class="image_theme image_theme_legende">
+                <img class="img_legende_portrait" src="../../images/anniv-no.jpg" alt="image décoration mariage"/>
+            </div>
+            <p class="legende">Création d'une arche de ballon organique.<br/>(Tous les ballons et la toile de fond ont été fournis par la cliente)</p>
+        </div>
     </div>
-    <FooterComponent/>
 </template>
   
 <script>
 
-import HeaderComponent from '../components/HeaderComponent.vue'
-import FooterComponent from "../components/FooterComponent.vue"
+
 export default {
     name: 'AnniversairePage',
     components: {
-        HeaderComponent,
-        FooterComponent,
+
     },
     
 }
@@ -63,5 +68,23 @@ export default {
         justify-content: space-between;
         flex-wrap: wrap;
     }
+    .legende{
+        font-size: 13px;
+        text-align:start;
+    }
+    .image_legende{
+        display: flex;
+        flex-direction: column;
+        width:33%;
+
+    }
+    .img_legende_portrait{
+        width: 60%;
+        margin-top:30px;
+        border: 1px solid #c9bf93;
+        border-radius: 20px;
+
+    }
+
 </style>
   

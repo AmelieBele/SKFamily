@@ -9,7 +9,9 @@
             <button type="button" id="fat" @click.prevent="goFaT">Fêtes à thèmes</button>
             <button type="button" id="gr" @click.prevent="goGR">Gender Reveal</button>
             <button type="button" id="gr" @click.prevent="goMariage">Mariage</button>
-            <button type="button" id="autre" @click.prevent="goAutre">Autre</button>   
+            <button type="button" id="autre" @click.prevent="goAutre">Autre</button>
+            <button type="button" id="location" @click.prevent="goLoc">Location de matériel</button>  
+
         </div>
     </div>
 </template>
@@ -44,6 +46,9 @@ export default {
         },
         goAutre(){
             this.$router.push(`/Autre`)
+        },
+        goLoc(){
+            this.$router.push('/Loc')
         }
     }
 
@@ -88,6 +93,9 @@ export default {
             background-color:#c9bf93;
         }
         #autre{
+            margin-bottom:50px;
+        }
+        #location{
             margin-bottom:100px;
         }
     }
