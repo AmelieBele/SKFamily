@@ -9,6 +9,7 @@ import FaTPage from "../views/FaTPage.vue";
 import GenderRevealPage from "../views/GenderRevealPage.vue";
 import MariagePage from "../views/MariagePage.vue";
 import LocPage from "../views/LocPage.vue";
+import MentionsLegalesPage from "../views/MentionsLegalesPage.vue";
 
 
 const routes = [
@@ -61,6 +62,11 @@ const routes = [
     path:"/Loc",
     name:"Location",
     component: LocPage
+  },
+  {
+    path:"/MentionsLégales",
+    name:"MentionsLégales",
+    component: MentionsLegalesPage
   },
 
 ];

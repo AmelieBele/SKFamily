@@ -5,6 +5,7 @@
             <a class="fb_insta" href="https://www.facebook.com/profile.php?id=100086930124117"><i class="fa-brands fa-facebook"></i></a>
             <a class="fb_insta" href="https://www.instagram.com/skfamilyevents/"><i class="fa-brands fa-instagram"></i></a>      
         </p>
+        <p><a class="mentions" @click.prevent="mentions">Mentions légales</a></p>
     </div>
 </template>
 
@@ -12,11 +13,11 @@
 
 export default {
     name: 'FooterComponent',
-    methods: {
-        contact (){
-            
+    methods:{
+        mentions(){
+            this.$router.push(`/MentionsLégales`)
         }
-    }
+      }
 }
 
 </script>
@@ -33,6 +34,12 @@ export default {
       margin-right: 20px;
       color:#5b4e46;
       font-size: 40px;
-
+    }
+    .mentions{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .mentions:hover{
+        text-decoration:none
     }
 </style>
