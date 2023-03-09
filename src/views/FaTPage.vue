@@ -13,6 +13,16 @@
             <img class="paysage" src="../../images/halloween_2.jpg" alt="image décoration halloween"/>
             <img class="paysage" src="../../images/halloween_3.jpg" alt="image décoration halloween"/>
         </div>
+
+        <div class="texte">
+            <p class="titre_theme">Exemple noël en pack premium  </p>
+        </div>
+        <div class="image_theme">
+            <img class="portrait_noel" src="../../images/noel.jpg" alt="image décoration noël"/>
+            <img class="portrait_noel" src="../../images/noel1.jpg" alt="image décoration noël"/>
+            <img class="portrait_noel" src="../../images/noel2.jpg" alt="image décoration noël"/>
+
+        </div>
     </div>
 </template>
   
@@ -51,7 +61,12 @@ export default {
         border: 1px solid #c9bf93;
         border-radius: 20px;
         width:20%;
-
+    }
+    .portrait_noel{
+        margin-top:30px;
+        border: 1px solid #c9bf93;
+        border-radius: 20px;
+        width:15%;
     }
     .paysage{
         margin-top:30px;
@@ -62,7 +77,7 @@ export default {
     }
     .image_theme{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
     }
 </style>

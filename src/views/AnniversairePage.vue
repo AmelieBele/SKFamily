@@ -3,20 +3,21 @@
         <div class="p">
             <p>Anniversaire</p>
         </div>
+        
         <div class="texte">
-            <p class="titre_theme">Exemple de pack soft </p>
+            <p class="titre_theme">Exemple de pack soft  </p>
         </div>
         <div class="image_theme">
-            <img class="portrait" src="../../images/pack_soft_noir.jpg"/>
+            <img class="portrait" src="../../images/pack_soft_noir.jpg" alt="image décoration anniversaire"/>
         </div>
+
         <div class="texte">
             <p class="titre_theme">Autre</p>
         </div>
-        <div class="image_legende">           
-            <div class="image_theme image_theme_legende">
-                <img class="img_legende_portrait" src="../../images/anniv-no.jpg" alt="image décoration mariage"/>
-            </div>
-            <p class="legende">Création d'une arche de ballon organique.<br/>(Tous les ballons et la toile de fond ont été fournis par la cliente)</p>
+        <div class="image_theme">
+            <img class="portrait_noel" src="../../images/anniv-no.jpg" alt="image décoration anniversaire"/>
+            <img class="portrait" src="../../images/happy_birthday1.jpg" alt="image décoration anniversaire"/>
+            <img class="portrait" src="../../images/happy_birthday2.jpg" alt="image décoration anniversaire"/>
         </div>
     </div>
 </template>
@@ -47,14 +48,25 @@ export default {
     .titre_theme{
         margin-top:100px;
         font-size:20px;
+        border:#c9bf93 1px solid;
+        width:20%;
         margin-bottom: 50px;
+    }
+    .legende{
+        font-size: 20px;
+        text-align:start;
     }
     .portrait{
         margin-top:30px;
         border: 1px solid #c9bf93;
         border-radius: 20px;
         width:20%;
-
+    }
+    .portrait_noel{
+        margin-top:30px;
+        border: 1px solid #c9bf93;
+        border-radius: 20px;
+        width:15%;
     }
     .paysage{
         margin-top:30px;
@@ -65,26 +77,8 @@ export default {
     }
     .image_theme{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
     }
-    .legende{
-        font-size: 13px;
-        text-align:start;
-    }
-    .image_legende{
-        display: flex;
-        flex-direction: column;
-        width:33%;
-
-    }
-    .img_legende_portrait{
-        width: 60%;
-        margin-top:30px;
-        border: 1px solid #c9bf93;
-        border-radius: 20px;
-
-    }
-
 </style>
   

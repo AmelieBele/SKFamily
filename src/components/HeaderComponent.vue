@@ -30,54 +30,53 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-div.header{
-    display:flex;
-    justify-content: space-between;
-    div.logo{
-        img{
-            width: 200px;
-            height: 200px;
-            cursor:pointer;
-        } 
-    }
-    div.reseaux{
-        font-size: 30px;
-        display: flex;
-        justify-content:flex-end;
-        align-items:baseline;
-        .fb_insta{
-            margin-right: 20px;
-            color:#5b4e46;
+    div.header{
+        display:flex;
+        justify-content: space-between;
+        div.logo{
+            img{
+                width: 200px;
+                height: 200px;
+                cursor:pointer;
+            } 
         }
-        
-    }
-    div.contact{
-        margin-top: 10px;
-        margin-right: 40px;
-
-        .button-contact{
+        div.reseaux{
             font-size: 30px;
-            font-family: "Raleway",arial,sans-serif;
-            border: 0.5px solid;
-            border-radius: 10px;
-            border-color: #c9bf93;
-            background-color: white;
-            color:#5b4e46 ;
-            padding: 10px;
-            margin: 5px;
-        }
+            display: flex;
+            justify-content:flex-end;
+            align-items:baseline;
+            .fb_insta{
+                margin-right: 20px;
+                color:#5b4e46;
+            }
             
-        .button-contact:hover{
-            color:#9c9490;
-            cursor: pointer;
-;
         }
+        div.contact{
+            margin-top: 10px;
+            margin-right: 40px;
 
-        .reseaux:hover{
-            cursor: pointer;
+            .button-contact{
+                font-size: 30px;
+                font-family: "Raleway",arial,sans-serif;
+                border: 0.5px solid;
+                border-radius: 10px;
+                border-color: #c9bf93;
+                background-color: white;
+                color:#5b4e46 ;
+                padding: 10px;
+                margin: 5px;
+            }
+                
+            .button-contact:hover{
+                color:#9c9490;
+                cursor: pointer;
+
+            }
+
+            .reseaux:hover{
+                cursor: pointer;
+            }
         }
         
     }
-}
-
 </style>

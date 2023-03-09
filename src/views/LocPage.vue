@@ -27,6 +27,84 @@
                     <span class="prix_legende"> à partir de 15€</span>
                 </p>
         </div> 
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/plat_blanc.jpg" alt="image plat"/>
+                <p class="legende">
+                    Présentoir à gâteau blanc<br/>
+                    H=14cm L=20cm<br/>
+                    <span class="prix_legende"> à partir de 3€</span>
+                </p>
+        </div> 
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/plat_noir.jpg" alt="image plat"/>
+                <p class="legende">
+                    Présentoir à gâteau noir<br/>
+                    H=19cm L=30cm<br/>
+                    <span class="prix_legende"> à partir de 5€</span>
+                </p>
+        </div>
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/boite_enveloppe_argentee.jpg" alt="image plat"/>
+                <p class="legende">
+                    Boite à enveloppe argentée<br/>
+                    <span class="prix_legende"> à partir de 5€</span>
+                </p>
+        </div> 
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/chandelier.jpg" alt="image plat"/>
+                <p class="legende">
+                    Chandelier<br/>
+                    <span class="prix_legende"> à partir de 3€</span>
+                </p>
+        </div> 
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/photophore.jpg" alt="image plat"/>
+                <p class="legende">
+                    Photophore <br/>
+                    pour bougie chauffe plat<br/>
+                    <span class="prix_legende"> à partir de 3€</span>
+                </p>
+        </div>
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/plat_halloween.jpg" alt="image plat"/>
+                <p class="legende">
+                    Plat Halloween<br/>
+                    <span class="prix_legende"> à partir de 3€</span>
+                </p>
+        </div>  
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/cube_noel.jpg" alt="image plat"/>
+                <p class="legende">
+                    Cube de Noël en velour<br/>
+                    30x30cm<br/>
+                    <span class="prix_legende"> à partir de 20€</span>
+                </p>
+        </div>
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/mur_verre.jpg" alt="image plat"/>
+                <p class="legende">
+                    Mur a coupe de champagne<br/>
+                    pour 25 personnes<br/>
+                    <span class="prix_legende"> à partir de 40€</span>
+                </p>
+        </div>
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/flutes_rouge.jpg" alt="image flutes"/>
+                <p class="legende">
+                    Flûtes à champagne en plastique rigide réutilisable et lavable au lave vaisselle<br/>
+                    pour 60 personnes<br/>
+                    <span class="prix_legende"> à partir de 10€</span>
+                </p>
+        </div>
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/chemain_table.jpg" alt="image chemain de table"/>
+                <p class="legende">
+                    Chemain de table en gaze transparente beige nude<br/>
+                    90/400cm<br/>
+                    5 disponibles<br/>
+                    <span class="prix_legende"> à partir de 5€ l'unité/20€ les 5</span>
+                </p>
+        </div>
     </div>
 </template>
   
@@ -54,7 +132,6 @@ export default {
         margin-top:30px;
         border-radius: 20px;
         width:20%;
-
     }
     .paysage{
         margin-top:30px;
@@ -79,11 +156,11 @@ export default {
         display: flex;
         flex-direction: column;
         width:33%;
-
     }
     .img_legende_portrait{
         width: 60%;
         margin-top:30px;
+        border: 1px solid #c9bf93;
         border-radius: 20px;
     }
 </style>

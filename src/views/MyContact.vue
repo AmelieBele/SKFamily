@@ -1,14 +1,12 @@
 
 <template>
   <div class="container">
-    <div class="logo">
-            <img src="../../images/logo_sk.jpg" alt="logo du site" @click.prevent="home">        
-    </div>
     <div class="contact">
         <p class="me_contacter">Mes coordonnés</p>
         <div class="infos">
-          <p>skfamilyevents@gmail.com</p>
-          <p>06.33.27.75.22 </p>
+          <p><a href="mailto:skfamilyevents@gmail.com">skfamilyevents@gmail.com</a></p>
+          <p><a href="tel:33633277522">06.33.27.75.22 </a></p>
+          <a href="http://calendly.com/skfamilyevents">Pour plus d'informations ou effectuer un devis, cliquez ici !</a>
           <p class="reseaux">
             <a class="fb_insta" href="https://www.facebook.com/profile.php?id=100086930124117"><i class="fa-brands fa-facebook"></i></a>
             <a class="fb_insta" href="https://www.instagram.com/skfamilyevents/"><i class="fa-brands fa-instagram"></i></a>      
@@ -73,7 +71,13 @@ export default {
       color:#5b4e46;
       font-size: 40px;
     }
-
+    a{
+      text-decoration: none;
+      color:#5b4e46;
+    }
+    a:hover {
+      color:#9c9490;
+    }
   }
     
 </style>
