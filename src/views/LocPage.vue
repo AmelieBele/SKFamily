@@ -105,6 +105,53 @@
                     <span class="prix_legende"> à partir de 5€ l'unité/20€ les 5</span>
                 </p>
         </div>
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/ecehelle.jpg" alt="image échelle décorative"/>
+                <p class="legende">
+                    Échelle décorative bambou<br/>
+                    50/190cm<br/>
+                    <span class="prix_legende"> à partir de 10€</span>
+                </p>
+        </div>
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/table_enfants.jpg" alt="image ecriture table des enfants"/>
+                <p class="legende">
+                    Écriture "Table des enfants"<br/>
+                    <span class="prix_legende"> à partir de 5€</span>
+                </p>
+        </div>
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/bar_bonbons.jpg" alt="image ecriture bar à bonbons"/>
+                <p class="legende">
+                    Écriture "Bar à bonbons"<br/>
+                    <span class="prix_legende"> à partir de 5€</span>
+                </p>
+        </div>
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/tapis.jpg" alt="image tapis osier"/>
+                <p class="legende">
+                    Tapis osier<br/>
+                    120/180cm<br/>
+                    <span class="prix_legende"> à partir de 20€</span>
+                </p>
+        </div>
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/paravent.jpg" alt="image paravent"/>
+                <p class="legende">
+                    Paravent<br/>
+                    160/170cm<br/>
+                    <span class="prix_legende"> à partir de 30€</span>
+                </p>
+        </div>
+        <div class="image_theme image_legende">
+            <img class="portrait img_legende_portrait" src="../../images/barre_deco.jpg" alt="image barre de décoration"/>
+                <p class="legende">
+                    Barre de décoration de table extensible<br/>
+                    <span class="nb">(louée sans la décoration présente sur la photo)</span>
+                    130/250cm<br/>
+                    <span class="prix_legende"> à partir de 10€</span>
+                </p>
+        </div>
     </div>
 </template>
   
@@ -162,6 +209,9 @@ export default {
         margin-top:30px;
         border: 1px solid #c9bf93;
         border-radius: 20px;
+    }
+    .nb{
+        font-size:12px
     }
 </style>
   
